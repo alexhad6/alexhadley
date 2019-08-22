@@ -34,19 +34,12 @@ nav {
 }
 
 nav a {
-    /*color: #000;
-    background-color: rgba(255, 255, 255, 0.7);;
-    padding-top: 0.15rem;
-    padding-bottom: 0.1rem;
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
     border-radius: 1rem;*/
     color: #fff;
     text-decoration: none;
 }
 
 nav a:hover {
-   /*background-color: rgba(200, 200, 200, 0.7);*/
    color: #ccc;
 }
 
@@ -59,8 +52,6 @@ nav a:hover {
     background-size: cover;
     background-image: url('sunset.jpg');
     z-index: -1;
-    -webkit-filter: blur(1rem);
-    filter: blur(1rem);
 }
 
 @media only screen and (max-width: 800px) {
