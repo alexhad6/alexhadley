@@ -1,7 +1,16 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
+import {Helmet} from 'react-helmet';
 import {StaticImage} from 'gatsby-plugin-image';
 import * as styles from './style.module.scss';
+
+const navData = [
+  {text: 'Resume', link: '/Resume.pdf'},
+  {text: 'LinkedIn', link: 'https://www.linkedin.com/in/alexhadley/'},
+  {text: 'GitHub', link: 'https://github.com/alexhad6'},
+  {text: 'Photos', link: 'https://photos.alexhadley.net'},
+  {text: 'Contact', link: 'mailto:ahadley@g.hmc.edu'},
+];
 
 class Background extends React.Component {
   render() {
@@ -9,6 +18,7 @@ class Background extends React.Component {
       className={styles.backgroundImage}
       src="../images/sunset.jpg"
       quality={100}
+      style={{position: 'fixed'}}
     />;
   }
 }
@@ -24,51 +34,38 @@ class NavItem extends React.Component {
     </a>;
   }
 }
-
 NavItem.propTypes = {
-  link: PropTypes.string,
-  text: PropTypes.string,
+  link: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 class Content extends React.Component {
   render() {
+    const navElements = navData.map((data) => {
+      return <NavItem key={data.text} link={data.link} text={data.text} />;
+    });
+
     return (
       <div className={styles.content}>
         <h1>Alex Hadley</h1>
-        <nav>
-          <NavItem
-            link="/Resume.pdf"
-            text="Resume"
-          />
-          <NavItem
-            link="https://www.linkedin.com/in/alexhadley/"
-            text="LinkedIn"
-          />
-          <NavItem
-            link="https://github.com/alexhad6"
-            text="GitHub"
-          />
-          <NavItem
-            link="https://photos.alexhadley.net"
-            text="Photos"
-          />
-          <NavItem
-            link="mailto:ahadley@g.hmc.edu"
-            text="Contact"
-          />
-        </nav>
+        <nav>{navElements}</nav>
       </div>
     );
   }
 }
 
-export default class Page extends React.Component {
+class Page extends React.Component {
   render() {
     return (
       <main>
+        <Helmet>
+          <title>Alex Hadley</title>
+        </Helmet>
         <Background />
         <Content />
       </main>
     );
   }
 };
+
+export default Page;
