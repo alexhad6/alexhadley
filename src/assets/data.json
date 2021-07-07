@@ -1,0 +1,86 @@
+{
+  "header": {
+    "title": "Alex Hadley",
+    "nav": [
+      {
+        "text": "About",
+        "link": "#about"
+      },
+      {
+        "text": "Skills",
+        "link": "#skills"
+      },
+      {
+        "text": "Projects",
+        "link": "#projects"
+      },
+      {
+        "text": "Experience",
+        "link": "#experience"
+      }
+    ],
+    "links": [
+      {
+        "text": "Resume",
+        "link": "/Resume.pdf"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/alexhadley/"
+      },
+      {
+        "text": "GitHub",
+        "link": "https://github.com/alexhad6"
+      },
+      {
+        "text": "Contact",
+        "link": "mailto:ahadley@g.hmc.edu"
+      }
+    ]
+  },
+  "content": {
+    "about": "I’m a Computer Science major at Harvey Mudd College interested in software engineering. I'm currently a software engineer intern at [Dotdash](https://www.dotdash.com). I also enjoy baking, biking, and photography.",
+    "skills": [
+      "Python", "Java", "JavaScript", "C++", "Dart", "React", "Vue", "HTML", "CSS"
+    ],
+    "projects": [
+      {
+        "title": "Personal Site",
+        "description": "This website, created using [Vue.js](https://vuejs.org).",
+        "link": "https://alexhadley.net",
+        "github": "https://github.com/alexhad6/alexhadley.net"
+      },
+      {
+        "title": "Glaze Gallery",
+        "description": "Gallery to allow potters to view different glaze combinations, built using PHP and jQuery. View at the link below (the password is “Sassy”).",
+        "link": "https://www.lamanopottery.com/glaze-gallery/",
+        "github": null
+      },
+      {
+        "title": "Humans vs. Zombies App",
+        "description": "An application to faciliate a tag game at my college, made using [Flutter](https://flutter.dev) and [Firebase](https://firebase.google.com). A work in progress.",
+        "link": null,
+        "github": "https://github.com/alexhad6/HvZ-app"
+      },
+      {
+        "title": "Line App",
+        "description": "App to create and join virtual lines, built using [Flutter](https://flutter.dev) and [Firebase](https://firebase.google.com). A work in progress.",
+        "link": null,
+        "github": "https://github.com/alexhad6/line-app"
+      },
+      {
+        "title": "Photo Portfolio",
+        "description": "A website showcasing some of my photography, built using [Vue.js](https://vuejs.org) and [Firebase](https://firebase.google.com). A work in progress.",
+        "link": "https://photos.alexhadley.net",
+        "github": "https://github.com/alexhad6/photos.alexhadley.net"
+      },
+      {
+        "title": "Galaxy Simulator",
+        "description": "A package for [Julia](https://julialang.org) implementing the parallelized [Barnes Hut](https://en.wikipedia.org/wiki/Barnes–Hut_simulation) approximation algorithm for an *n*-body simulation.",
+        "link": null,
+        "github": "https://github.com/alexhad6/ParallelBarnesHut.jl"
+      }
+    ],
+    "experience": "A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress."
+  }
+}
