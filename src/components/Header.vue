@@ -21,6 +21,10 @@
           >
             <Icon icon="resume"/>
           </a>
+          <a href="mailto:ahadley@g.hmc.edu"
+          >
+            <Icon icon="mail"/>
+          </a>
         </div>
       </div>
       <nav class="expanded-nav">

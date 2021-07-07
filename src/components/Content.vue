@@ -12,7 +12,6 @@ import About from '@/components/sections/About.vue';
 // import Skills from '@/components/sections/Skills.vue';
 import Projects from '@/components/sections/Projects.vue';
 import Experience from '@/components/sections/Experience.vue';
-// import Contact from '@/components/sections/Contact.vue';
 
 export default {
   name: 'Content',
@@ -21,7 +20,6 @@ export default {
     // Skills,
     Projects,
     Experience,
-    // Contact,
   },
   props: {
     content: {

@@ -1,6 +1,8 @@
 <template>
   <Section name="Skills">
-    <p v-for="skill in skills" :key="skill">{{skill}}</p>
+    <div class="skills-list">
+      <span v-for="skill in skills" :key="skill">{{ skill }}</span>
+    </div>
   </Section>
 </template>
 
@@ -22,10 +24,13 @@ export default {
 </script>
 
 <style lang="scss">
-section#skills {
+.skills-list {
+  display: grid;
+  grid: auto-flow / repeat(auto-fit, 7rem);
+
   span {
-    margin-right: 1.5rem;
-    font-size: 1.25rem;
+    font-family: $font;
+    font-size: $font-size;
   }
 }
 </style>
