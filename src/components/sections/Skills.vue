@@ -1,8 +1,9 @@
 <template>
   <Section name="Skills">
-    <div class="skills-list">
-      <span v-for="skill in skills" :key="skill">{{ skill }}</span>
-    </div>
+    <ul v-for="skill in skills" :key="skill.name">
+      <li><h3>{{ skill.name }}:</h3></li>
+      <li v-for="item in skill.data" :key="item">{{ item }}</li>
+    </ul>
   </Section>
 </template>
 
@@ -24,13 +25,31 @@ export default {
 </script>
 
 <style lang="scss">
-.skills-list {
-  display: grid;
-  grid: auto-flow / repeat(auto-fit, 7rem);
+#skills > ul {
+  display: flex;
+  flex-flow: wrap;
+  align-items: baseline;
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0.5rem;
 
-  span {
+  &:first-of-type {
+    margin-top: -0.25rem;
+  }
+
+  li {
+    margin-right: 1rem;
+    margin-top: 0.25rem;
     font-family: $font;
     font-size: $font-size;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: $header-font;
+    font-size: 1.6rem;
+    font-weight: $header-font-weight;
   }
 }
 </style>

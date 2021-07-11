@@ -41,12 +41,52 @@
   "content": {
     "about": "I’m a Computer Science major at Harvey Mudd College interested in software engineering. I'm currently a software engineer intern at [Dotdash](https://www.dotdash.com). I also enjoy baking, biking, and photography.",
     "skills": [
-      "Python", "Java", "JavaScript", "C++", "Dart", "React", "Vue", "HTML", "CSS"
+      {
+        "name": "Languages",
+        "data": [
+          "Python",
+          "JavaScript",
+          "Java",
+          "C++",
+          "Dart",
+          "Julia",
+          "HTML",
+          "CSS",
+          "Sass",
+          "XML",
+          "JSON",
+          "FreeMarker"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "data": [
+          "Vue",
+          "React",
+          "Flutter"
+        ]
+      },
+      {
+        "name": "Command line",
+        "data": [
+          "Git",
+          "Vim",
+          "Bash"
+        ]
+      },
+      {
+        "name": "Software",
+        "data": [
+          "MATLAB",
+          "Mathematica",
+          "Jupyter Notebook"
+        ]
+      }
     ],
     "projects": [
       {
         "title": "Personal Site",
-        "description": "This website, created using [Vue.js](https://vuejs.org).",
+        "description": "This website, created using [Vue.js](https://vuejs.org). A work in progress.",
         "link": "https://alexhadley.net",
         "github": "https://github.com/alexhad6/alexhadley.net"
       },
@@ -54,7 +94,7 @@
         "title": "Glaze Gallery",
         "description": "Gallery to allow potters to view different glaze combinations, built using PHP and jQuery. View at the link below (the password is “Sassy”).",
         "link": "https://www.lamanopottery.com/glaze-gallery/",
-        "github": null
+        "github": "https://github.com/alexhad6/glaze-gallery"
       },
       {
         "title": "Humans vs. Zombies App",
@@ -81,6 +121,6 @@
         "github": "https://github.com/alexhad6/ParallelBarnesHut.jl"
       }
     ],
-    "experience": "A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress. A website showcasing some of my photography. A work in progress."
+    "experience": "Section in progress. More coming soon."
   }
 }
