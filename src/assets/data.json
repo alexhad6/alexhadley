@@ -54,8 +54,7 @@
           "CSS",
           "Sass",
           "XML",
-          "JSON",
-          "FreeMarker"
+          "JSON"
         ]
       },
       {
@@ -71,7 +70,8 @@
         "data": [
           "Git",
           "Vim",
-          "Bash"
+          "Bash",
+          "Zsh"
         ]
       },
       {

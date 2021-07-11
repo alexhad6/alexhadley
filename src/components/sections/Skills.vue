@@ -38,7 +38,7 @@ export default {
   }
 
   li {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     margin-top: 0.25rem;
     font-family: $font;
     font-size: $font-size;

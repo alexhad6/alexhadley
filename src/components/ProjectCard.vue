@@ -61,7 +61,7 @@ export default {
   padding-bottom: 3.5rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  border-radius: 0.75rem;
+  border-radius: 0.25rem;
   background-color: $light-blue;
 
   h3 {
