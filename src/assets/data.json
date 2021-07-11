@@ -103,10 +103,10 @@
         "github": "https://github.com/alexhad6/HvZ-app"
       },
       {
-        "title": "Line App",
+        "title": "NQ App",
         "description": "App to create and join virtual lines, built using [Flutter](https://flutter.dev) and [Firebase](https://firebase.google.com). A work in progress.",
         "link": null,
-        "github": "https://github.com/alexhad6/line-app"
+        "github": "https://github.com/alexhad6/NQ-prototype"
       },
       {
         "title": "Photo Portfolio",
